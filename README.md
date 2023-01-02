@@ -15,7 +15,7 @@ To run the demo application, you need to set environment variable `ASPECTO_AUTH`
 ASPECTO_AUTH=00000000-0000-0000-0000-000000000000 yarn start
 ```
 
-This will start an http server on port 4000. Then invoke it with `http://localhost:4000` and observe the trace in `trace search` page on Aspecto App.
+This will start an http server on port 4000. Then invoke it with `http://localhost:4000` and observe the trace in [`trace search`](https://app.aspecto.io/search) page on Aspecto App.
 
 ## Usage
 For OpenTelemetry propagation to work accross bulljs, you need to modify job opts before adding it to the queue:
